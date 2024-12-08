@@ -5,7 +5,7 @@ from netmiko import ConnectHandler
 import requests
 
 remote_device = {
-    'device_type': 'linux',  # You could try 'ssh' for generic SSH if 'linux' fails
+    'device_type': 'linux',
     'host': '192.168.56.101',
     'username': 'hetu2',
     'password': 'Dexter@148',
